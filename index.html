@@ -16,7 +16,6 @@
   <!-- font awesome -->
   <script src="https://kit.fontawesome.com/12b3768a93.js" crossorigin="anonymous"></script>
   <!-- tailwind custom color -->
-
   <script>
     tailwind.config = {
       theme: {
@@ -38,10 +37,10 @@
 </head>
 
 <body class="font-manrope">
-  <header class="container w-full mx-auto mt-12">
+  <header class="container lg:w-full mx-auto mt-12">
     <nav>
       <!-- nav starts here -->
-      <div class="navbar w-full">
+      <div class="navbar lg:w-full">
         <div class="navbar-start">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -72,9 +71,9 @@
             <li><a>Contact</a></li>
           </ul>
         </div>
-        <div class="navbar-end text-center gap-4">
+        <div class="navbar-end text-center gap-8">
           <div>
-            <img class="lg:flex justify-center items-center w-6 h-6" src="./Images/search.png" alt="" />
+            <img class="flex justify-center items-center w-6 h-6" src="./Images/search.png" alt="" />
           </div>
           <button class="bg-hockey-primary text-base text-white font-bold px-6 py-4 rounded-lg">
             Get Ticket
@@ -85,7 +84,7 @@
     </nav>
     <!-- slider or carousel started -->
     <div>
-      <div class="carousel w-full my-8">
+      <div class="carousel w-full lg:my-8">
         <!-- slide 1 -->
         <div id="slide1" class="carousel-item relative w-full">
           <img class="w-full" src="./Images/1.png" alt="" />
@@ -112,7 +111,7 @@
         </div>
       </div>
       <div
-        class="h-[16vh] lg:w-1/2 lg:flex flex-col bg-[#131318] mx-auto -translate-y-52 lg:mr-8 lg:p-8 rounded-2xl">
+        class="h-[12vh] lg:w-1/2 lg:flex flex-col bg-[#131318] mx-auto lg:-translate-y-52 lg:mr-8 lg:p-8 rounded-2xl">
         <h4 class="text-white lg:text-2xl font-extrabold mb-4">
           Meet all the heroes from the field
         </h4>
@@ -122,15 +121,14 @@
           through the spirit and landscape of the sport.
         </p>
       </div>
-      <div class="flex flex-col w-full">
-        <div class="divider"></div>
+      <div class="divider"></div>
       </div>
     </div>
     <!-- slider or carousel end -->
   </header>
   <main class="container mx-auto">
     <!-- club section starts -->
-    <section class="w-full text-center">
+    <section class="lg:w-full text-center">
       <h3 class="text-4xl font-extrabold text-[#131318] mb-4">
         Professional Hockeys Club
       </h3>
@@ -140,7 +138,7 @@
         determined to win championships.
       </p>
       <!-- club progress container -->
-      <div class="flex-col-1 lg:flex md:flex-cols-2 lg:flex-row justify-between mt-8 gap-8">
+      <div class="flex-col-1 lg:flex md:flex-cols-2 lg:flex-row justify-between mt-8 gap-10">
         <!-- radial progress 1 -->
         <div>
           <div class="radial-progress text-red-600" style="--value: 70" role="progressbar">
@@ -208,7 +206,7 @@
         comprehensive program.
       </p>
       <div class="divider"></div>
-      <div class="w-full h-full mx-auto grid lg:grid-cols-2 md:grid-cols-2 rounded-2xl gap-6 my-6">
+      <div class="lg:w-full lg:h-full mx-auto grid lg:grid-cols-2 md:grid-cols-2 rounded-2xl gap-4 lg:gap-6 lg:my-6">
         <div class="w-full relative">
           <!-- program 1 -->
           <img class="lg:w-full mx-auto" src="./Images/2.png" alt="" />
@@ -226,9 +224,9 @@
         </div>
         <div class="w-full relative">
           <!-- program 2 -->
-          <img class="w-full mx-auto" src="Images/3.png" alt="" />
+          <img class="lg:w-full mx-auto" src="Images/3.png" alt="" />
           <div class="absolute text-left ml-2 -my-48">
-            <h4 class="text-white text-3xl font-extrabold">
+            <h4 class="text-white lg:text-3xl font-extrabold">
               Teenager Program
             </h4>
             <p class="text-white text-base font-medium leading-6 lg:mb-4">
@@ -242,10 +240,10 @@
           </div>
         </div>
       </div>
-      <div class="w-full">
+      <div class="lg:w-full">
         <div class="relative">
           <!-- program 3 -->
-          <img class="w-full mx-auto" src="Images/4.png" alt="" />
+          <img class="lg:w-full mx-auto" src="Images/4.png" alt="" />
           <div class="absolute text-left ml-2 -my-40">
             <h4 class="text-white Lg:text-3xl font-extrabold">
               Professional Program
@@ -261,8 +259,7 @@
           </div>
         </div>
       </div>
-      <div class="flex flex-col w-full">
-        <div class="divider"></div>
+      <div class="divider"></div>
       </div>
     </section>
     <section class="text-center justify-center mx-auto w-full h-full">
@@ -297,7 +294,7 @@
               <div class="flex text-center justify-center gap-6">
                 <a class="text-[#FF4240] text-lg font-extrabold">Price - $22.00</a>
                 <div class="flex">
-                  <img class="" src="./Images/cart-icon.png" alt="" />
+                  <img class="h-6 w-6" src="./Images/cart-icon.png" alt="" />
                   <p class="text-center">Delivery Fee : Free</p>
                 </div>
               </div>
@@ -319,7 +316,7 @@
               <div class="flex text-center justify-center gap-6">
                 <a class="text-[#FF4240] text-lg font-extrabold">Price - $22.00</a>
                 <div class="flex">
-                  <img class="" src="./Images/cart-icon.png" alt="" />
+                  <img class="h-6 w-6" src="./Images/cart-icon.png" alt="" />
                   <p class="text-center">Delivery Fee : Free</p>
                 </div>
               </div>
@@ -341,7 +338,7 @@
               <div class="flex text-center justify-center gap-7">
                 <a class="text-[#FF4240] text-lg font-extrabold">Price - $22.00</a>
                 <div class="flex">
-                  <img class="" src="./Images/cart-icon.png" alt="" />
+                  <img class="h-6 w-6" src="./Images/cart-icon.png" alt="" />
                   <p class="text-center">Delivery Fee : Free</p>
                 </div>
               </div>
@@ -363,7 +360,7 @@
               <div class="flex text-center justify-center gap-7">
                 <a class="text-[#FF4240] text-lg font-extrabold">Price - $22.00</a>
                 <div class="flex">
-                  <img class="" src="./Images/cart-icon.png" alt="" />
+                  <img class="h-6 w-6" src="./Images/cart-icon.png" alt="" />
                   <p class="text-center">Delivery Fee : Free</p>
                 </div>
               </div>
@@ -385,7 +382,7 @@
               <div class="flex text-center justify-center gap-7">
                 <a class="text-[#FF4240] text-lg font-extrabold">Price - $22.00</a>
                 <div class="flex">
-                  <img class="" src="./Images/cart-icon.png" alt="" />
+                  <img class="h-6 w-6" src="./Images/cart-icon.png" alt="" />
                   <p class="text-center">Delivery Fee : Free</p>
                 </div>
               </div>
@@ -407,7 +404,7 @@
               <div class="flex text-center justify-center gap-7">
                 <a class="text-[#FF4240] text-lg font-extrabold">Price - $22.00</a>
                 <div class="flex">
-                  <img class="" src="./Images/cart-icon.png" alt="" />
+                  <img class="h-6 w-6" src="./Images/cart-icon.png" alt="" />
                   <p class="text-center">Delivery Fee : Free</p>
                 </div>
               </div>
@@ -430,7 +427,7 @@
       <div class="divider"></div>
       <div class="hero min-h-screen">
         <div class="hero-content w-full flex-col lg:gap-10 lg:flex-row border-2 shadow-xl rounded-xl">
-          <img src="./Images/11.png" class="w-2/3 lg:max-w-lg rounded-lg shadow-2xl" />
+          <img src="./Images/11.png" class="w-2/3 lg:max-w-lg rounded-lg px-4" />
           <div>
             <!-- first question -->
             <div class="collapse collapse-plus ">
@@ -496,28 +493,29 @@
             <!-- Clients Question ends -->
     </section>
     <!-- Get In Touch section starts -->
-    <section class="my-24">
-        <h3 class="text-[#131318] text-center text-4xl font-extrabold mb-6">
+    <section class="lg:my-24 w-full mx-auto ">
+        <h3 class="text-[#131318] text-center lg:text-4xl font-extrabold lg:mb-6">
           Get In Touch
           </h3>
-          <p class="text-center font-base font-medium leading-7">
+          <p class="text-center font-base font-medium lg:leading-7">
             Connect with us to explore, inquire, and embark on your next adventure – we're here to assist you every step of the way.
           </p>
           <div class="divider"></div>
-          <div class="ml-8 bg-shadow-xl grid lg:grid-cols-1 md:grid-cols-1 gap-4">
+          <div class="lg:flex lg:w-full justify-center md:gap-20">
+          <div class="lg:w-[450px] grid lg:grid-cols-1 md:grid-cols-1 bg-white shadow-xl rounded-2xl gap-6 px-2 py-2">
             <!-- card-1 -->
               <div class="card w-[374px] bg-[#BCED6D1A] shadow-xl">
-                <figure><img class="mr-60 mt-8" src="./Images/Group 1171275317.png" alt="" /></figure>
+                <figure><img class=" lg:mt-8" src="./Images/Group 1171275317.png" alt="" /></figure>
                 <div class="card-body">
                   <h4 class="card-title text-base font-normal leading-8 text-center">Phone Number :
                     <span class="text-[#131318] font-bold">(+62) 123-321-543</span></h4>
                   <div class="card-actions justify-end">
                   </div>
                 </div>
-            </div>
+              </div>
             <!-- card-2 -->
               <div class="card w-[374px] bg-[#FDDD5F1A] shadow-xl">
-                <figure><img class="mr-60 mt-8" src="./Images/Group 1171275318.png" alt="" /></figure>
+                <figure><img class="lg:mr-60 lg:mt-8" src="./Images/Group 1171275318.png" alt="" /></figure>
                 <div class="card-body">
                   <h4 class="card-title text-base font-normal leading-8">Email : <span class="text-[#131318] font-bold">
                     hockeys@support.com
@@ -528,7 +526,7 @@
             </div>
             <!-- card-3 -->
               <div class="card w-[374px] bg-[#629CF31A] shadow-xl">
-                <figure><img class="mr-60 mt-8" src="./Images/Group 1171275321.png" alt="" /></figure>
+                <figure><img class="lg:mr-60 lg:mt-8" src="./Images/Group 1171275321.png" alt="" /></figure>
                 <div class="card-body">
                   <h4 class="card-title text-base font-normal leading-8 text-center">Location:
                     <br>
@@ -538,10 +536,94 @@
                 </div>
             </div>
           </div>
+          <div class="mx-auto mt-10 lg:px-24">
+            <div class="grid grid-cols-1 lg:grid-cols-3">
+              <div class="lg:col-span-2">
+                <div class="grid gap-6 grid-cols-1 lg:grid-cols-2">
+                  <div>
+                    <label for="">Your Name</label>
+                  <input type="text" placeholder="Enter your full name" class="mt-2 input input-bordered w-full" />
+                  </div>
+                  <div>
+                    <label for="">Your Email</label>
+                  <input type="text" placeholder="Enter your email" class="mt-2 input input-bordered w-full" />
+                  </div>
+                  <div>
+                    <label for="">Subject</label>
+                  <input type="text" placeholder="Enter your subject" class="mt-2 input input-bordered w-full" />
+                  </div>
+                  <div>
+                    <label for="">Phone Number</label>
+                  <input type="text" placeholder="Enter your phone number" class="mt-2 input input-bordered w-full" />
+                  </div>
+                </div>
+                <div class="mt-4">
+                  <label for="">Message</label>
+                  <textarea class="w-full mt-2 textarea textarea-bordered" placeholder="Write your message" rows="8"></textarea>
+                </div>
+                <button class="w-full mt-4 bg-[#FF4240] border-[1px] rounded-xl text-white text-center text-xl font-bold">Send Message</button>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="divider"></div>
     </section>
-    <!-- Get In Touch section ends -->
-
+    <section>
+      <!-- Social Media section starts -->
+      <div class="footer footer-center p-10 bg-[#13131808] text-base-content rounded lg:w-[1170px] justify-center mx-auto">
+        <nav>
+          <h3 class="text[#131318] text-center text-2xl font-extrabold">Social Media</h3>
+          <div class="grid grid-flow-col gap-6">
+            <a><i class="text-xl fa-brands fa-twitter"></i></a>
+            <a><i class="text-xl fa-brands fa-facebook"></i></a>
+            <a><i class="text-xl fa-brands fa-instagram"></i></a>
+            <a><i class="text-xl fa-brands fa-github"></i></a>
+          </div>
+          <!-- Social Media section ends -->
+        </nav>
+      </div>
+    </section>
   </main>
-  <footer></footer>
+        <!-- real footer starts -->
+        <footer class="footer lg:p-40 bg-[#131318] text-neutral-content lg:my-24 lg:w-full h-[454px] h-full lg:flex-col-3 lg:space-x-10 p-8 mt-8">
+          <div>
+            <h3 class="text-white text-lg lg:text-3xl font-extrabold text-right">Get In Touch</h3>
+            <p class="lg:w-80 text-[#FFFFFF99] text-base font-medium">Experience the game's heartbeat, connect with us! Whether you play or cheer, "Get In Touch" to share your love for field hockey and join our vibrant community. Let's celebrate the spirit of this dynamic sport together.</p>
+            <div class="text-[#FFFFFFCC] font-medium">
+              <div class="flex mt-4 gap-4">
+                <img src="./Images/mailbox.png" alt="">
+                <p>hockeys@support.com</p>
+              </div>
+              <div class="flex mt-2 gap-4">
+                <img src="./Images/phone-icon.png" alt="">
+                <p>(+62) 123-321-543</p>
+              </div>
+            </div>
+          </div>
+          <nav class="">
+            <h6 class="footer-title"><span class="text-orange-600 text-lg font-bold">Company</span></h6>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Leadership</a>
+            <a class="link link-hover">Careers</a>
+            <a class="link link-hover">News & Article</a>
+            <a class="link link-hover">Legal Notice</a>
+          </nav> 
+          <nav>
+            <h6 class="footer-title"><span class="text-orange-600 text-lg font-bold">Support</span></h6> 
+            <a class="link link-hover">Help Center</a>
+            <a class="link link-hover">FAQ</a>
+            <a class="link link-hover">Ticket Support</a>
+            <a class="link link-hover">Contact Us</a>
+          </nav> 
+          <nav>
+            <h6 class="footer-title"><span class="text-orange-600 text-lg font-bold">Services</span></h6> 
+            <a class="link link-hover">Academy</a>
+            <a class="link link-hover">Group Lesson</a>
+            <a class="link link-hover">Private Lesson</a>
+            <a class="link link-hover">Hockeys for kids</a>
+            <a class="link link-hover">Hockeys for Adults</a>
+          </nav>
+          <!-- footer ends -->
+        </footer>
 </body>
 </html>
